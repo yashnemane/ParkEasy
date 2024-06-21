@@ -100,7 +100,7 @@
 }
 .title-line p {
   color: #32325d;
-  font-size: 28px;
+  font-size: 35px;
   font-family: 'Muli', sans-serif;
   margin: 10px 300px 10px 300px;
   font-weight: bold;
@@ -179,4 +179,88 @@
   font-size: 14px;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.renttous {
+  display: flex;
+  justify-content: flex-start; /* Aligns the rentadtext to the left within renttous */
+  width: 100%;
+  padding: 20px;
+}
+
+.rentadtext {
+  padding: 20px;
+  font-size: 16px;
+  color: #333;
+}
+
+.rentadtext h1 {
+  color: #32325d;
+  font-size: 35px;
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+  text-align: left;
+}
+
+.rentadtext p {
+  text-align: left;
+  font-size: 15px;
+  font-family: 'Muli', sans-serif;
+  font-weight: 200;
+}
+
+.rentadphoto img {
+  width: 400px;
+  height: 200px;
+  padding-right:150px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .header-logo img {
+    height: 40px;
+    margin-right: 5px;
+  }
+
+  .header-logo h1 {
+    font-size: 20px;
+  }
+
+  .header-nav {
+    justify-content: flex-start;
+  }
+
+  .header-nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header-nav ul li {
+    margin: 5px 0;
+  }
+
+  .book-slot-btn {
+    align-self: flex-end;
+    margin: 10px 0 0 0;
+  }
+
+  .title-line p {
+    margin: 10px;
+    font-size: 24px;
+  }
+
+  .image-list img {
+    width: calc(100% - 10px);
+    height: auto;
+    margin: 5px;
+  }
+
+  .modal-content {
+    width: 90%;
+  }
 }
