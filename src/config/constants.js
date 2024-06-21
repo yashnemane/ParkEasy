@@ -1,0 +1,1 @@
+export const PARKING_APP_NAME = 'ParkEasy'
