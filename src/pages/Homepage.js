@@ -1,6 +1,7 @@
 import React from 'react';
 import PhotoGallery from '../components/PhotoGallery';
 import RentToUs from '../components/Renttous';
+import Maps from '../components/MapplsMaps';
 
 export default function Homepage() {
   return (
@@ -8,6 +9,7 @@ export default function Homepage() {
       <div>
         <PhotoGallery/>
         <RentToUs/>
+        <Maps/>
       </div>
     </div>
   );

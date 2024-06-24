@@ -5,29 +5,6 @@ import {COMPANY_REGISTERED_ADDRESS} from  '../config/constants'
 import {COMPANY_REGISTERED_PHONE} from '../config/constants'
 import '../assests/styles/homepage.css'
 
-/*export default function Footer() {
-    return (
-        <div className="footer">
-            <div className="company-details">
-                <img src={ALICEBLUE_LOGO} alt="company-logo"/>
-                <h1>{COMPANY_REGISTERED_NAME}</h1>
-                <p>Address - {COMPANY_REGISTERED_ADDRESS}</p>
-                <p>Address - {COMPANY_REGISTERED_ADDRESS}</p>
-                <p>Phone No. - {COMPANY_REGISTERED_PHONE}</p>
-            </div>
-            <div className="follow-pages">
-                <ul>
-                    <li>Instagram</li>
-                    <li>Facebook</li>
-                    <li>Twitter</li>
-                    <li>Reddit</li>
-                    <li>Pinterest</li>
-                </ul>
-            </div>
-        </div>
-    );
-}*/
-
 export default function Footer() {
     return (
         <footer className="footer">
