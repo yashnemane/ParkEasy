@@ -1,1 +1,6 @@
 export const PARKING_APP_NAME = 'ParkEasy'
+export const NEWSLETTER_TEXT = 'Receive parking industry news and insights through our newsletters. Stay informed, gain valuable knowledge, and access exclusive updates tailored to your interests. Join today!'
+export const COMPANY_REGISTERED_NAME = 'Affinity Sols Private Limited'
+export const COMPANY_REGISTERED_ADDRESS = 'Phase 203, Opp. Durgam Cheruvu, Madhapur, Hyderabad, Telangana'
+export const COMPANY_REGISTERED_PHONE = '+91XXXXXXXXXX'
+export const COMPANY_REGISTERED_EMAIL = 'affinitysols@gmail.com'
