@@ -173,7 +173,7 @@
   color: black;
   border: none;
   padding: 10px 20px;
-  font-size: 14px;
+  font-size: 15px;
   border-radius: 5px;
   cursor: pointer;
 }
@@ -183,7 +183,7 @@
   color: black;
   border: none;
   padding: 10px 20px;
-  font-size: 14px;
+  font-size: 15px;
   border-radius: 5px;
   cursor: pointer;
 }
@@ -264,54 +264,7 @@
   border-radius: 5px;
   cursor: pointer;
 }
-/*
-.footer {
-  background-color: aliceblue;
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-}
 
-.company-details {
-  align-items: flex-start;
-  font-size: 35px;
-  font-family: 'Muli', sans-serif;
-  font-weight: bold;
-  margin-right: 20px;
-}
-
-.company-details img {
-  width: 200px;
-  height: 70px;
-  margin-left: 0px;
-}
-
-.company-details h1 {
-  font-size: 15px;
-  margin: 5px 0;
-  font-family: 'Muli', sans-serif;
-  font-weight: 100;
-  margin-right: 20px;
-  padding-left: 10px;
-  text-align: left;
-}
-
-.company-details p {
-  font-size: 15px;
-  font-family: 'Muli', sans-serif;
-  font-weight: 100;
-  margin-right: 20px;
-  padding-left: 10px;
-  text-align: left;
-}
-
-.follow-pages ul {
-  margin: 10px 0;
-  font-size: 15px;
-  font-family: 'Muli', sans-serif;
-  font-weight: 100;
-  text-align: left;
-}*/
 .footer {
   background-color: aliceblue;
   padding: 20px 0;
@@ -427,6 +380,57 @@
 
   .modal-content {
     width: 90%;
+  }
+
+  .renttous {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .rentadtext {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .rentadtext h1 {
+    font-size: 28px;
+  }
+
+  .rentadtext p {
+    font-size: 15px;
+  }
+
+  .rentadphoto img {
+    width: 100%;
+    height: auto;
+    padding-right: 0;
+  }
+
+  .newsletter {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .newsletter p {
+    text-align: center;
+    margin-right: 0;
+    padding-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .newsletter form {
+    padding-right: 0;
+    justify-content: center;
+  }
+
+  .newsletter input[type="email"] {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px; 
+  }
+
+  .newsletter button {
+    width: 100%;
   }
 
 .footer-container {
