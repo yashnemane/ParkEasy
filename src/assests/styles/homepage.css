@@ -1,10 +1,16 @@
 /* src/App.css */
 .App {
   text-align: center;
+  overflow-x: hidden;
 }
 
 .main {
   padding: 20px;
+}
+
+.body {
+  margin: 0;
+  padding: 0;
 }
 
 .container {
@@ -84,6 +90,7 @@
   border-radius: 5px;
   cursor: pointer;
   margin-left: 10px;
+  align-self: flex-end;
 }
 
 .italic {
@@ -183,7 +190,7 @@
 
 .renttous {
   display: flex;
-  justify-content: flex-start; /* Aligns the rentadtext to the left within renttous */
+  justify-content: flex-start;
   width: 100%;
   padding: 20px;
 }
@@ -215,6 +222,169 @@
   padding-right:150px;
 }
 
+.newsletter {
+  display: flex;
+  background-color: aliceblue;
+  padding: 20px;
+}
+
+.newsletter p {
+  text-align: left;
+  font-size: 15px;
+  font-family: 'Muli', sans-serif;
+  font-weight: 200;
+  margin-right: 20px;
+  padding-right: 50px;
+}
+
+.newsletter form {
+  padding-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.newsletter input[type="email"] {
+  font-family: 'Muli', sans-serif;
+  font-weight: 200;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+.newsletter button {
+  background-color: lightgreen;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-family: 'Muli', sans-serif;
+  font-weight: 200;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/*
+.footer {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.company-details {
+  align-items: flex-start;
+  font-size: 35px;
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.company-details img {
+  width: 200px;
+  height: 70px;
+  margin-left: 0px;
+}
+
+.company-details h1 {
+  font-size: 15px;
+  margin: 5px 0;
+  font-family: 'Muli', sans-serif;
+  font-weight: 100;
+  margin-right: 20px;
+  padding-left: 10px;
+  text-align: left;
+}
+
+.company-details p {
+  font-size: 15px;
+  font-family: 'Muli', sans-serif;
+  font-weight: 100;
+  margin-right: 20px;
+  padding-left: 10px;
+  text-align: left;
+}
+
+.follow-pages ul {
+  margin: 10px 0;
+  font-size: 15px;
+  font-family: 'Muli', sans-serif;
+  font-weight: 100;
+  text-align: left;
+}*/
+.footer {
+  background-color: aliceblue;
+  padding: 20px 0;
+  font-size: 15px;
+  font-family: 'Muli', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  font-size: 15px;
+  font-family: 'Muli', sans-serif;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 0 20px;
+  font-size: 15px;
+  font-family: 'Muli', sans-serif;
+}
+
+.footer-section h4 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #32325d;
+  font-size: 15px;
+  font-family: 'Muli', sans-serif;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  font-size: 15px;
+  font-family: 'Muli', sans-serif;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+  font-size: 15px;
+  font-family: 'Muli', sans-serif;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: #32325d;
+  font-size: 15px;
+  font-family: 'Muli', sans-serif;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-section p {
+  color: #32325d;
+  text-align: left;
+  font-size: 15px;
+  font-family: 'Muli', sans-serif;
+}
+
+.logo {
+  width: 300px;
+  height: 100px;
+  padding-top: 30px;
+  padding-right: 100px;
+}
+
+
 @media (max-width: 768px) {
   .header {
     flex-direction: column;
@@ -242,11 +412,6 @@
 
   .header-nav ul li {
     margin: 5px 0;
-  }
-
-  .book-slot-btn {
-    align-self: flex-end;
-    margin: 10px 0 0 0;
   }
 
   .title-line p {
