@@ -222,6 +222,15 @@
   padding-right:150px;
 }
 
+#map {
+  margin: 0;
+  padding: 0;
+  width: 99%;
+  height: 60vh;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+
 .newsletter {
   display: flex;
   background-color: aliceblue;
@@ -457,5 +466,10 @@
     padding-top: 20px;
     padding-right: 0;
     max-width: 200px;
+  }
+
+  #map {
+    height: 50vh;
+    border-radius: 0;
   }
 }
