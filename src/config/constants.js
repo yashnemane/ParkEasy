@@ -5,3 +5,4 @@ export const COMPANY_REGISTERED_ADDRESS = 'Phase 203, Opp. Durgam Cheruvu, Madha
 export const COMPANY_REGISTERED_PHONE = '+91XXXXXXXXXX'
 export const COMPANY_REGISTERED_EMAIL = 'affinitysols@gmail.com'
 export const MAPPLE_MAPS_API_KEY = '91a1c45b59f417440c9ae7b5e8416e7b'
+export const BACKEND_BASE_URL = 'http://localhost:5000'

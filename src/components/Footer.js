@@ -35,7 +35,7 @@ export default function Footer() {
                     </ul>
                 </div>
                 <div className="footer-section">
-                    <h4>Contact Info</h4>
+                    <h4>CONTACT INFO</h4>
                     <p><strong>{COMPANY_REGISTERED_NAME}</strong></p>
                     <p><strong>Address: </strong>{COMPANY_REGISTERED_ADDRESS}</p>
                     <p><strong>Email: </strong> {COMPANY_REGISTERED_EMAIL}</p>
