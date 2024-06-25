@@ -222,6 +222,104 @@
   padding-right:150px;
 }
 
+.parking-near-you {
+  width: 100%;
+  padding: 20px;
+}
+
+.parking-near-you-text h2 {
+  color: #32325d;
+  font-size: 25px;
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.parking-near-you-text p {
+  color: #32325d;
+  font-size: 15px;
+  font-family: 'Muli', sans-serif;
+  font-weight: 100;
+  text-align: center;
+}
+
+.search-parking-near-you {
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+.search-parking-near-you input {
+  font-family: 'Muli', sans-serif;
+  font-weight: 200;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+.search-parking-near-you button {
+  background-color: lightgreen;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-family: 'Muli', sans-serif;
+  font-weight: 200;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-parking-near-you p {
+  font-size: 15px;
+  font-family: 'Muli', sans-serif;
+  font-weight: 100;
+}
+
+.parking-results-wrapper {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.parking-results {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.parking-results h3 {
+  color: #32325d;
+  font-size: 20px;
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+  margin-bottom: 15px;
+  grid-column: span 3;
+}
+
+.parking-results ul {
+  list-style-type: none;
+  padding: 0;
+  display: contents;
+}
+
+.parking-results li {
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.parking-results li p {
+  color: #32325d;
+  font-size: 15px;
+  font-family: 'Muli', sans-serif;
+  font-weight: 100;
+  margin: 0;
+}
+
 #map {
   margin: 0;
   padding: 0;
@@ -415,6 +513,11 @@
     padding-right: 0;
   }
 
+  #map {
+    height: 50vh;
+    border-radius: 0;
+  }
+
   .newsletter {
     flex-direction: column;
     padding: 10px;
@@ -468,8 +571,4 @@
     max-width: 200px;
   }
 
-  #map {
-    height: 50vh;
-    border-radius: 0;
-  }
 }

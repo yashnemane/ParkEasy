@@ -1,7 +1,6 @@
 import React from 'react';
 import '../assests/styles/header.css';
 import logo from '../assests/images/parkeasylogoaliceblue.jpg'
-import Button from './LocationAccess';
 
 export default function Header () {
 
@@ -19,7 +18,6 @@ export default function Header () {
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-      <Button/>
     </header>
   );
 };
