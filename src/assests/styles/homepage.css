@@ -279,6 +279,15 @@
   font-weight: 100;
 }
 
+#map {
+  margin: 0;
+  padding: 0;
+  width: 99%;
+  height: 60vh;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+
 .parking-results-wrapper {
   width: 100%;
   margin-top: 20px;
@@ -318,15 +327,6 @@
   font-family: 'Muli', sans-serif;
   font-weight: 100;
   margin: 0;
-}
-
-#map {
-  margin: 0;
-  padding: 0;
-  width: 99%;
-  height: 60vh;
-  padding-left: 10px;
-  border-radius: 10px;
 }
 
 .newsletter {
@@ -571,4 +571,37 @@
     max-width: 200px;
   }
 
+}
+
+@media (max-width: 768px) {
+  .parking-results {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .parking-results {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 992px) {
+  .search-parking-near-you {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .search-parking-near-you {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+
+@media (max-width: 576px) {
+  .search-parking-near-you {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
